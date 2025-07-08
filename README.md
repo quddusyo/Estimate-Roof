@@ -47,7 +47,7 @@ A simple React component that calculates estimated roofing service costs based o
 
 ---
 
-## 🧠 Notes
+##  Notes
 
 - All prices are hardcoded and can be modified in the source code.
 - This calculator is for **estimation purposes only**.
