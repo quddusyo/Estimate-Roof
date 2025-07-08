@@ -17,19 +17,30 @@ const Footer = () => {
 
 const styles = {
   footer: {
+    position: 'relative',
+    width: '100vw',
     backgroundColor: '#292626',
     color: '#a2a2a2',
-    height: '85px',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: '0 10px',
+    padding: '0px 0',
     fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
     fontSize: '16px',
-    position: 'relative',
-    minWidth: '100vw,'
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    boxSizing: 'border-box',
+    marginLeft: 0,
+    alignSelf: 'stretch', // Make sure flexbox allows full width
+    marginLeft: 'calc(-50vw + 50%)', // a trick to offset centering in flexbox if needed
+    backgroundColor: '#292626',
+    color: '#a2a2a2',
+    padding: '20px 0',
+    boxSizing: 'border-box',
   },
   content: {
+    width: '100%',  // fill full width
+    maxWidth: 'none', // no max width
+    padding: '0',     // remove padding
+    boxSizing: 'border-box',
     textAlign: 'center',
   },
   text: {
@@ -42,4 +53,6 @@ const styles = {
   },
 };
 
+
 export default Footer;
+
