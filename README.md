@@ -1,6 +1,7 @@
 #  Roofing Quote Calculator
 
-A simple React component that calculates estimated roofing service costs based on user inputs. This tool helps homeowners and service providers to quickly determine a ballpark quote based on the square footage, damage level, and selected additional services. **Note: Numbers and data are temporary and can be modified to match comporate requirements.**
+A simple React component that calculates estimated roofing service costs based on user inputs. This tool helps homeowners and service providers to quickly determine a ballpark quote based on the square footage, damage level, and selected additional services. 
+**Note: Numbers and data are temporary and can be modified to match comporate requirements.**
 
 ---
 
